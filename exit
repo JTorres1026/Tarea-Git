@@ -1,0 +1,499 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex a7645fa..a661cc8 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -41,45 +41,27 @@[m
+     <div class="container d-flex align-items-center">[m
+ [m
+       <div class="logo me-auto">[m
+[31m-        <h1><a href="index.html">Lumia</a></h1>[m
+[32m+[m[32m        <h1><a href="index.html">CdT</a></h1>[m[41m[m
+         <!-- Uncomment below if you prefer to use an image logo -->[m
+         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->[m
+       </div>[m
+ [m
+       <nav id="navbar" class="navbar order-last order-lg-0">[m
+         <ul>[m
+[31m-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>[m
+[31m-          <li><a class="nav-link scrollto" href="#about">About</a></li>[m
+[31m-          <li><a class="nav-link scrollto" href="#services">Services</a></li>[m
+[31m-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>[m
+[31m-          <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>[m
+[31m-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>[m
+[31m-            <ul>[m
+[31m-              <li><a href="#">Drop Down 1</a></li>[m
+[31m-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>[m
+[31m-                <ul>[m
+[31m-                  <li><a href="#">Deep Drop Down 1</a></li>[m
+[31m-                  <li><a href="#">Deep Drop Down 2</a></li>[m
+[31m-                  <li><a href="#">Deep Drop Down 3</a></li>[m
+[31m-                  <li><a href="#">Deep Drop Down 4</a></li>[m
+[31m-                  <li><a href="#">Deep Drop Down 5</a></li>[m
+[31m-                </ul>[m
+[31m-              </li>[m
+[31m-              <li><a href="#">Drop Down 2</a></li>[m
+[31m-              <li><a href="#">Drop Down 3</a></li>[m
+[31m-              <li><a href="#">Drop Down 4</a></li>[m
+[31m-            </ul>[m
+[31m-          </li>[m
+[31m-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>[m
+[32m+[m[32m          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>[m[41m[m
+[32m+[m[32m          <li><a class="nav-link scrollto" href="#about">Acerca de</a></li>[m[41m[m
+[32m+[m[32m          <li><a class="nav-link scrollto" href="#services">Servicios</a></li>[m[41m[m
+[32m+[m[32m          <li><a class="nav-link scrollto " href="#portfolio">Productos</a></li>[m[41m[m
+[32m+[m[41m          [m
+[32m+[m[32m          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>[m[41m[m
+         </ul>[m
+         <i class="bi bi-list mobile-nav-toggle"></i>[m
+       </nav><!-- .navbar -->[m
+ [m
+       <div class="header-social-links d-flex align-items-center">[m
+[31m-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>[m
+[32m+[m[41m        [m
+         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>[m
+[31m-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>[m
+[31m-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>[m
+[32m+[m[41m        [m
+       </div>[m
+ [m
+     </div>[m
+[36m@@ -88,80 +70,50 @@[m
+   <!-- ======= Hero Section ======= -->[m
+   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">[m
+     <div class="container text-center text-md-left" data-aos="fade-up">[m
+[31m-      <h1>Welcome to <span>Lumia</span></h1>[m
+[31m-      <h2>We are team of talented designers making websites with Bootstrap</h2>[m
+[32m+[m[32m      <h1> Ciudad del <span>Tornillo</span></h1>[m[41m[m
+[32m+[m[32m      <h2>Entre los grandes</h2>[m[41m[m
+       <a href="#about" class="btn-get-started scrollto">Get Started</a>[m
+     </div>[m
+   </section><!-- End Hero -->[m
+ [m
+   <main id="main">[m
+ [m
+[31m-    <!-- ======= What We Do Section ======= -->[m
+[31m-    <section id="what-we-do" class="what-we-do">[m
+[31m-      <div class="container">[m
+[31m-[m
+[31m-        <div class="section-title">[m
+[31m-          <h2>What We Do</h2>[m
+[31m-          <p>Magnam dolores commodi suscipit consequatur ex aliquid</p>[m
+[31m-        </div>[m
+[32m+[m[41m    [m
+[32m+[m[32m    <br>[m[41m[m
+[32m+[m[32m    <br>[m[41m[m
+[32m+[m[32m    <br>[m[41m[m
+[32m+[m[41m    [m
+ [m
+[31m-        <div class="row">[m
+[31m-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">[m
+[31m-            <div class="icon-box">[m
+[31m-              <div class="icon"><i class="bx bxl-dribbble"></i></div>[m
+[31m-              <h4><a href="">Lorem Ipsum</a></h4>[m
+[31m-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[31m-[m
+[31m-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">[m
+[31m-            <div class="icon-box">[m
+[31m-              <div class="icon"><i class="bx bx-file"></i></div>[m
+[31m-              <h4><a href="">Sed ut perspiciatis</a></h4>[m
+[31m-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[31m-[m
+[31m-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">[m
+[31m-            <div class="icon-box">[m
+[31m-              <div class="icon"><i class="bx bx-tachometer"></i></div>[m
+[31m-              <h4><a href="">Magni Dolores</a></h4>[m
+[31m-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[31m-[m
+[31m-        </div>[m
+[31m-[m
+[31m-      </div>[m
+[31m-    </section><!-- End What We Do Section -->[m
+ [m
+     <!-- ======= About Section ======= -->[m
+     <section id="about" class="about">[m
+[32m+[m[41m[m
+       <div class="container">[m
+ [m
+         <div class="row">[m
+           <div class="col-lg-6">[m
+[31m-            <img src="assets/img/about.jpg" class="img-fluid" alt="">[m
+[32m+[m[32m            <img src="assets/img/logo3.jpeg" class="img-fluid" alt="">[m[41m[m
+           </div>[m
+           <div class="col-lg-6 pt-4 pt-lg-0">[m
+[31m-            <h3>About Us</h3>[m
+[32m+[m[41m[m
+[32m+[m[32m            <h3>Acerca de nosotros</h3>[m[41m[m
+             <p>[m
+[31m-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.[m
+[32m+[m[32m              Somos una empresa con respaldo de más de una década en la comercialización de tornillos y productos relacionados. Contamos con personal seleccionado por su capacidad, conocimiento y valores; comprometidos a brindarle a nuestro socio comercial productos de buena calidad a precios razonables y un servicio de excelencia. Buscando alcanzar un crecimiento sostenible para todo aquel que tenga relación con nosotros.[m[41m[m
+             </p>[m
+             <ul>[m
+[31m-              <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>[m
+[31m-              <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>[m
+[32m+[m[32m              <li><i class="bx bx-check-double"></i> Nuestra experiencia hace la diferencia.</li>[m[41m[m
+[32m+[m[32m              <li><i class="bx bx-check-double"></i> Somos tu mejor opcion en comercio de tornillos.</li>[m[41m[m
+             </ul>[m
+             <div class="row icon-boxes">[m
+               <div class="col-md-6">[m
+                 <i class="bx bx-receipt"></i>[m
+[31m-                <h4>Corporis voluptates sit</h4>[m
+[31m-                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>[m
+[32m+[m[32m                <h4>Vision</h4>[m[41m[m
+[32m+[m[32m                <p>Ser la empresa comersializadora de tornillos mas grande de Alta verapaz</p>[m[41m[m
+               </div>[m
+               <div class="col-md-6 mt-4 mt-md-0">[m
+                 <i class="bx bx-cube-alt"></i>[m
+[31m-                <h4>Ullamco laboris nisi</h4>[m
+[31m-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>[m
+[32m+[m[32m                <h4>Mision</h4>[m[41m[m
+[32m+[m[32m                <p>Encontrar soluciones a nuestros ciientes para garantizar su confienza.</p>[m[41m[m
+               </div>[m
+             </div>[m
+           </div>[m
+[36m@@ -170,109 +122,46 @@[m
+       </div>[m
+     </section><!-- End About Section -->[m
+ [m
+[31m-    <!-- ======= Skills Section ======= -->[m
+[31m-    <section id="skills" class="skills">[m
+[32m+[m[32m<!-- ======= What We Do Section ======= -->[m[41m[m
+[32m+[m[32m    <section id="what-we-do" class="what-we-do">[m[41m[m
+       <div class="container">[m
+ [m
+[31m-        <div class="row skills-content">[m
+[31m-[m
+[31m-          <div class="col-lg-6">[m
+[31m-[m
+[31m-            <div class="progress">[m
+[31m-              <span class="skill">HTML <i class="val">100%</i></span>[m
+[31m-              <div class="progress-bar-wrap">[m
+[31m-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-[m
+[31m-            <div class="progress">[m
+[31m-              <span class="skill">CSS <i class="val">90%</i></span>[m
+[31m-              <div class="progress-bar-wrap">[m
+[31m-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-[m
+[31m-            <div class="progress">[m
+[31m-              <span class="skill">JavaScript <i class="val">75%</i></span>[m
+[31m-              <div class="progress-bar-wrap">[m
+[31m-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-[m
+[31m-          </div>[m
+[31m-[m
+[31m-          <div class="col-lg-6">[m
+[31m-[m
+[31m-            <div class="progress">[m
+[31m-              <span class="skill">PHP <i class="val">80%</i></span>[m
+[31m-              <div class="progress-bar-wrap">[m
+[31m-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-[m
+[31m-            <div class="progress">[m
+[31m-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>[m
+[31m-              <div class="progress-bar-wrap">[m
+[31m-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-[m
+[31m-            <div class="progress">[m
+[31m-              <span class="skill">Photoshop <i class="val">55%</i></span>[m
+[31m-              <div class="progress-bar-wrap">[m
+[31m-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-[m
+[31m-          </div>[m
+[31m-[m
+[32m+[m[32m        <div class="section-title">[m[41m[m
+[32m+[m[32m          <h2>Ubicaciones</h2>[m[41m[m
+[32m+[m[32m          <p>Nos puedes encontrar en las siguientes ubicaciones</p>[m[41m[m
+         </div>[m
+ [m
+[31m-      </div>[m
+[31m-    </section><!-- End Skills Section -->[m
+[31m-[m
+[31m-    <!-- ======= Counts Section ======= -->[m
+[31m-    <section id="counts" class="counts">[m
+[31m-      <div class="container">[m
+[31m-[m
+         <div class="row">[m
+[31m-[m
+[31m-          <div class="col-lg-3 col-6">[m
+[31m-            <div class="count-box">[m
+[31m-              <i class="bi bi-emoji-smile"></i>[m
+[31m-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>[m
+[31m-              <p>Happy Clients</p>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[31m-[m
+[31m-          <div class="col-lg-3 col-6">[m
+[31m-            <div class="count-box">[m
+[31m-              <i class="bi bi-journal-richtext"></i>[m
+[31m-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>[m
+[31m-              <p>Projects</p>[m
+[32m+[m[32m          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">[m[41m[m
+[32m+[m[32m            <div class="icon-box">[m[41m[m
+[32m+[m[32m              <h4><a href="">Coban </a></h4>[m[41m[m
+[32m+[m[32m              <p>2da Calle 6-00 zona 3, frente a plaza asturias</p>[m[41m[m
+[32m+[m[32m              <img src="assets/img/cobanA.jpeg" class="img-fluid" alt="">[m[41m[m
+             </div>[m
+           </div>[m
+ [m
+[31m-          <div class="col-lg-3 col-6 mt-5 mt-lg-0">[m
+[31m-            <div class="count-box">[m
+[31m-              <i class="bi bi-headset"></i>[m
+[31m-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>[m
+[31m-              <p>Hours Of Support</p>[m
+[32m+[m[32m          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">[m[41m[m
+[32m+[m[32m            <div class="icon-box">[m[41m[m
+[32m+[m[32m              <h4><a href="">Coban 2</a></h4>[m[41m[m
+[32m+[m[32m              <p>2da calle 9-028 zona 2, en la esquina opuesta de parroquia san martin</p>[m[41m[m
+[32m+[m[32m              <img src="assets/img/cobanA2.jpeg" class="img-fluid" alt="">[m[41m[m
+             </div>[m
+           </div>[m
+ [m
+[31m-          <div class="col-lg-3 col-6 mt-5 mt-lg-0">[m
+[31m-            <div class="count-box">[m
+[31m-              <i class="bi bi-people"></i>[m
+[31m-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>[m
+[31m-              <p>Hard Workers</p>[m
+[32m+[m[32m          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">[m[41m[m
+[32m+[m[32m            <div class="icon-box">[m[41m[m
+[32m+[m[32m              <h4><a href="">Carcha</a></h4>[m[41m[m
+[32m+[m[32m              <p>Barrio san pablo Carcha</p>[m[41m[m
+[32m+[m[32m              <img src="assets/img/carchaA.jpeg" class="img-fluid" alt="">[m[41m[m
+             </div>[m
+           </div>[m
+ [m
+         </div>[m
+ [m
+       </div>[m
+[31m-    </section><!-- End Counts Section -->[m
+[32m+[m[32m    </section><!-- End What We Do Section -->[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+ [m
+     <!-- ======= Services Section ======= -->[m
+     <section id="services" class="services section-bg">[m
+[36m@@ -336,20 +225,11 @@[m
+       <div class="container">[m
+ [m
+         <div class="section-title">[m
+[31m-          <h2>Portfolio</h2>[m
+[32m+[m[32m          <h2>Portafolio</h2>[m[41m[m
+           <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit</p>[m
+         </div>[m
+ [m
+[31m-        <div class="row">[m
+[31m-          <div class="col-lg-12">[m
+[31m-            <ul id="portfolio-flters">[m
+[31m-              <li data-filter="*" class="filter-active">All</li>[m
+[31m-              <li data-filter=".filter-app">App</li>[m
+[31m-              <li data-filter=".filter-card">Card</li>[m
+[31m-              <li data-filter=".filter-web">Web</li>[m
+[31m-            </ul>[m
+[31m-          </div>[m
+[31m-        </div>[m
+[32m+[m[41m      [m
+ [m
+         <div class="row portfolio-container">[m
+ [m
+[36m@@ -493,155 +373,9 @@[m
+       </div>[m
+     </section><!-- End Portfolio Section -->[m
+ [m
+[31m-    <!-- ======= Testimonials Section ======= -->[m
+[31m-    <section id="testimonials" class="testimonials section-bg">[m
+[31m-      <div class="container">[m
+[31m-[m
+[31m-        <div class="section-title">[m
+[31m-          <h2>Testimonials</h2>[m
+[31m-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>[m
+[31m-        </div>[m
+[31m-[m
+[31m-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">[m
+[31m-          <div class="swiper-wrapper">[m
+[31m-[m
+[31m-            <div class="swiper-slide">[m
+[31m-              <div class="testimonial-item">[m
+[31m-                <p>[m
+[31m-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>[m
+[31m-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.[m
+[31m-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>[m
+[31m-                </p>[m
+[31m-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">[m
+[31m-                <h3>Saul Goodman</h3>[m
+[31m-                <h4>Ceo &amp; Founder</h4>[m
+[31m-              </div>[m
+[31m-            </div><!-- End testimonial item -->[m
+[31m-[m
+[31m-            <div class="swiper-slide">[m
+[31m-              <div class="testimonial-item">[m
+[31m-                <p>[m
+[31m-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>[m
+[31m-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.[m
+[31m-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>[m
+[31m-                </p>[m
+[31m-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">[m
+[31m-                <h3>Sara Wilsson</h3>[m
+[31m-                <h4>Designer</h4>[m
+[31m-              </div>[m
+[31m-            </div><!-- End testimonial item -->[m
+[31m-[m
+[31m-            <div class="swiper-slide">[m
+[31m-              <div class="testimonial-item">[m
+[31m-                <p>[m
+[31m-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>[m
+[31m-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.[m
+[31m-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>[m
+[31m-                </p>[m
+[31m-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">[m
+[31m-                <h3>Jena Karlis</h3>[m
+[31m-                <h4>Store Owner</h4>[m
+[31m-              </div>[m
+[31m-            </div><!-- End testimonial item -->[m
+[31m-[m
+[31m-            <div class="swiper-slide">[m
+[31m-              <div class="testimonial-item">[m
+[31m-                <p>[m
+[31m-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>[m
+[31m-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.[m
+[31m-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>[m
+[31m-                </p>[m
+[31m-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">[m
+[31m-                <h3>Matt Brandon</h3>[m
+[31m-                <h4>Freelancer</h4>[m
+[31m-              </div>[m
+[31m-            </div><!-- End testimonial item -->[m
+[31m-[m
+[31m-            <div class="swiper-slide">[m
+[31m-              <div class="testimonial-item">[m
+[31m-                <p>[m
+[31m-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>[m
+[31m-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.[m
+[31m-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>[m
+[31m-                </p>[m
+[31m-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">[m
+[31m-                <h3>John Larson</h3>[m
+[31m-                <h4>Entrepreneur</h4>[m
+[31m-              </div>[m
+[31m-            </div><!-- End testimonial item -->[m
+[31m-[m
+[31m-          </div>[m
+[31m-          <div class="swiper-pagination"></div>[m
+[31m-        </div>[m
+[31m-[m
+[31m-      </div>[m
+[31m-    </section><!-- End Testimonials Section -->[m
+[31m-[m
+[31m-    <!-- ======= Team Section ======= -->[m
+[31m-    <section id="team" class="team">[m
+[31m-      <div class="container">[m
+[31m-[m
+[31m-        <div class="section-title">[m
+[31m-          <h2>Team</h2>[m
+[31m-          <p>Sit sint consectetur velit quos quisquam cupiditate nemo qui</p>[m
+[31m-        </div>[m
+[31m-[m
+[31m-        <div class="row">[m
+[31m-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">[m
+[31m-            <div class="member">[m
+[31m-              <img src="assets/img/team/team-1.jpg" alt="">[m
+[31m-              <h4>Walter White</h4>[m
+[31m-              <span>Chief Executive Officer</span>[m
+[31m-              <p>[m
+[31m-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut[m
+[31m-              </p>[m
+[31m-              <div class="social">[m
+[31m-                <a href=""><i class="bi bi-twitter"></i></a>[m
+[31m-                <a href=""><i class="bi bi-facebook"></i></a>[m
+[31m-                <a href=""><i class="bi bi-instagram"></i></a>[m
+[31m-                <a href=""><i class="bi bi-linkedin"></i></a>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[32m+[m[41m    [m
+ [m
+[31m-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">[m
+[31m-            <div class="member">[m
+[31m-              <img src="assets/img/team/team-2.jpg" alt="">[m
+[31m-              <h4>Sarah Jhinson</h4>[m
+[31m-              <span>Product Manager</span>[m
+[31m-              <p>[m
+[31m-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus[m
+[31m-              </p>[m
+[31m-              <div class="social">[m
+[31m-                <a href=""><i class="bi bi-twitter"></i></a>[m
+[31m-                <a href=""><i class="bi bi-facebook"></i></a>[m
+[31m-                <a href=""><i class="bi bi-instagram"></i></a>[m
+[31m-                <a href=""><i class="bi bi-linkedin"></i></a>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[31m-[m
+[31m-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">[m
+[31m-            <div class="member">[m
+[31m-              <img src="assets/img/team/team-3.jpg" alt="">[m
+[31m-              <h4>William Anderson</h4>[m
+[31m-              <span>CTO</span>[m
+[31m-              <p>[m
+[31m-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara[m
+[31m-              </p>[m
+[31m-              <div class="social">[m
+[31m-                <a href=""><i class="bi bi-twitter"></i></a>[m
+[31m-                <a href=""><i class="bi bi-facebook"></i></a>[m
+[31m-                <a href=""><i class="bi bi-instagram"></i></a>[m
+[31m-                <a href=""><i class="bi bi-linkedin"></i></a>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[31m-[m
+[31m-        </div>[m
+[31m-[m
+[31m-      </div>[m
+[31m-    </section><!-- End Team Section -->[m
+[32m+[m[41m  [m
+ [m
+     <!-- ======= Contact Section ======= -->[m
+     <section id="contact" class="contact section-bg">[m
+[36m@@ -770,23 +504,12 @@[m
+     <div class="container d-md-flex py-4">[m
+ [m
+       <div class="me-md-auto text-center text-md-start">[m
+[31m-        <div class="copyright">[m
+[31m-          &copy; Copyright <strong><span>Lumia</span></strong>. All Rights Reserved[m
+[31m-        </div>[m
+[31m-        <div class="credits">[m
+[31m-          <!-- All the links in the footer should remain intact. -->[m
+[31m-          <!-- You can delete the links only if you purchased the pro version. -->[m
+[31m-          <!-- Licensing information: https://bootstrapmade.com/license/ -->[m
+[31m-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/lumia-bootstrap-business-template/ -->[m
+[31m-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>[m
+[31m-        </div>[m
+[32m+[m[41m        [m
+       </div>[m
+       <div class="social-links text-center text-md-right pt-3 pt-md-0">[m
+[31m-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>[m
+[32m+[m[41m        [m
+         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>[m
+[31m-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>[m
+[31m-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>[m
+[31m-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>[m
+[32m+[m[41m        [m
+       </div>[m
+     </div>[m
+   </footer><!-- End Footer -->[m
