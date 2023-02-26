@@ -355,7 +355,11 @@ h6 {
 #hero {
   width: 100%;
   height: 60vh;
+<<<<<<< HEAD
   background: url("../img/CDT.jpg") center center;
+=======
+  background: url("../img/hero-bg.jpg") center center;
+>>>>>>> 97e4607e2aaea68a899ef7442de0c6eea8a3d78f
   background-size: cover;
   position: relative;
   margin-top: 70px;
